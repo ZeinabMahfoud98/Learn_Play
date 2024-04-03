@@ -10,3 +10,9 @@ class About(TemplateView):
 
 class Contact(TemplateView):
     template_name="contact.html"
+
+class Gallery(TemplateView):
+    template_name="gallery.html"
+
+class Program(TemplateView):
+    template_name="programs.html"
